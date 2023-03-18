@@ -1,0 +1,22 @@
+@font-face {
+    font-family:clockFont;
+    src: url(digital-7/digital-7\ \(mono\ italic\).ttf);
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.Clock{
+    font-size: 170px;
+    width: 900px;
+    margin: 200px;
+    text-align: center;
+    border:3px solid #22d7ff ;
+    font-family: clockFont;
+    color: #22d7ff;
+    margin-left: 480px;
+    padding-bottom: 44px;
+    border-radius: 10px;
+    margin-top: 380px;
+}
