@@ -31,4 +31,12 @@ function getTime(){
     }
     // adding everything together
     var Time = hours + ":" + minutes + ":" + seconds + PA;
+
+    document.getElementById("ClockDisplay").innerText = Time;
+    document.getElementById("ClockDisplay").textContent = Time;
+
+    setTimeout(getTime, 1000);
+
 }
+
+getTime();
