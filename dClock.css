@@ -8,15 +8,16 @@ body{
 }
 
 .Clock{
+    position: absolute;
     font-size: 170px;
-    width: 900px;
-    margin: 200px;
+    width: 60%;
     text-align: center;
     border:3px solid #22d7ff ;
     font-family: clockFont;
     color: #22d7ff;
-    margin-left: 480px;
-    padding-bottom: 44px;
     border-radius: 10px;
-    margin-top: 380px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding-right: 45px;
 }
